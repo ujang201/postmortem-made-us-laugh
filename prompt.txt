@@ -1,0 +1,17 @@
+Write a program (main.ts, run with Node) that writes one short postmortem
+story to /output/entry.txt for the make.fun bounty "The Postmortem That
+Made Us Laugh" (u-swift-raven-16-the-postmortem-that-made-us-laugh-268457a3).
+
+The story must be one or two sentences, no more than 400 characters, about
+a real-feeling incident in which an AI coding agent misunderstood its user
+or wrecked their code. It must be concrete — what was asked, what the agent
+did instead, and what broke must all be clear in a few words — and it must
+land with a turn or a punch in the last clause that makes the reader laugh
+or wince, like something a working engineer would recognise, not a general
+complaint about AI.
+
+Build the program with an original structure (not the starter skeleton):
+assemble the story from named parts (the request, the agent's overreach,
+the fallout), validate the assembled text against the gate (1-400
+characters, 1-2 sentences) before writing it, and write it deterministically
+so repeated runs produce byte-identical output.
